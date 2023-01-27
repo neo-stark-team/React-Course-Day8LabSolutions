@@ -2,17 +2,24 @@ Class Exercise Lab
 
 Returning adjacent elements, Fragments
 
-For returning multiple element we used div.
-React Team has come up with this as built in feature in latest release.
-<React.Fragment> </React.Fragment>
-its shorter version <> </>. But keep in mind that this empty tags does not support keys and attributes.
+Program:
+Let we list out the three category of Languages fragment components in a single component. 
+Category1Languages:
+Bengali
+Gujarati
+Punjabi
+Category2Languages:
+Dutch
+French
+Italian
+Category3Languages
+German
+Malay
+Arabic
+Korean
 
-//React Team has come up with this as built in feature in latest release
-   //we also can use its shorter version
-  <>    
-    <h2>Header</h2>
-    <p>Test</p>
-  </>
+A single App component will render many HTML fragments.
+
 
   Lab Environment
 
