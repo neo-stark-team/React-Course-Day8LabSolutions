@@ -1,0 +1,66 @@
+Class Exercise Lab
+
+Returning adjacent elements, Fragments
+
+For returning multiple element we used div.
+React Team has come up with this as built in feature in latest release.
+<React.Fragment> </React.Fragment>
+its shorter version <> </>. But keep in mind that this empty tags does not support keys and attributes.
+
+//React Team has come up with this as built in feature in latest release
+   //we also can use its shorter version
+  <>    
+    <h2>Header</h2>
+    <p>Test</p>
+  </>
+
+  Lab Environment
+
+In the project environment, there are two folders.
+
+a. react - react folder is the read-only folder and has the project's test cases.
+
+b. reactapp – explore your code in this folder. you can use it for coding.
+
+Default settings mapped to run the frontend application in PORT-8081:
+
+The package.json file in reactapp folder is modified as: (Note -If not you can change it as below)
+
+"scripts": {
+
+"start": "PORT=8081 react-scripts start",
+
+"build": "react-scripts build",
+
+"test": "react-scripts test",
+
+"eject": "react-scripts eject"}
+
+ 
+
+To run the application:
+
+ 
+
+Open the terminal - From Menu bar, select Terminal, then Open Terminal
+
+ 
+
+Type the below commands to execute the react project
+
+ 
+
+cd reactapp - command to open the folder
+
+ 
+
+nvm use 14 - command to select the node version to 14
+
+ 
+
+npm install - command to add the packages
+[All packages are declared within package.json file]
+
+ 
+
+npm start - command to run the application in PORT 8081
