@@ -2,15 +2,26 @@ Class Exercise Lab
 
 React Component in Details
 
-A prop is one of the way that components communicate to each other. To transfer data from from one component to other, prop are most commonly used.
+A detailed view of Component.
 
 Program:
-Create a new file in src folder - Subject.js Create a functional component Subject with one title prop. This component retuns h1 tag has "Learning Subject " with title prop value.
+Add a separate file Arithmetic.js in src folder. 
+This Arimetic component has add function and substract function.
+The function choice is given by the operator prop as "+" or "-". 
+Depends on the prop given the component will display the results in alert box.
 
-From App component, render the Subject Component by passing two prop title values
-1. prop.title =React
-2. prop.title =Angular
+Create class component Arithmetic with below requirements
+1. class constructor with props and super props
+2. state value declaration 
+    firstNumber and secondNumber
+3. return form element
+    a. Two input values
+    b. Two button with data-testid - formButtonAdd  and formButtonSubtract
+    [Note : only one button should be visible at a time]
 
+The parent component, App component renders the Arithmetic Function as below:
+<Arithmetic operator='+'/>
+<Arithmetic operator='-'/>
 
 Lab Environment
 
