@@ -3,13 +3,14 @@ import App from '../App';
 
 test('test_case01', () => {
   render(<App />);
-  const linkElement = screen.getByText(/fragments/i);
+  const linkElement = screen.getByText(/defaultProps/i);
   expect(linkElement).toBeInTheDocument();
 })
 
 test('test_case02', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Arabic/i);
-  expect(linkElement).toBeInTheDocument();
+  const checkText = screen.getAllByText(/label text/i);
+  expect(checkText[0]).toBeInTheDocument();
 })
+
 

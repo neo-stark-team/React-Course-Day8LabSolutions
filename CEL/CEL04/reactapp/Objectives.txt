@@ -1,27 +1,18 @@
 Class Exercise Lab
 
-Returning adjacent elements, Fragments
+React Component in Details
+
+How to set default props in React.
+
+defaultProps is a property on the componment class and can be used for undefine props. It cant be used for null props.
 
 Program:
-Let we list out the three category of Languages fragment components in a single component. 
-Category1Languages:
-Bengali
-Gujarati
-Punjabi
-Category2Languages:
-Dutch
-French
-Italian
-Category3Languages
-German
-Malay
-Arabic
-Korean
+Let we create a CustomText class that returns label of text "Sample Label Text". Set the defaultProps property to the CustomText class color- red.
+Call the CustomText componment from App Component with color props and without props. It will show the defaultProps property implemented.
 
-A single App component will render many HTML fragments.
+Let the App component have h1 tag "Check defaultProps" and render CustomText four times.
 
-
-  Lab Environment
+Lab Environment
 
 In the project environment, there are two folders.
 
