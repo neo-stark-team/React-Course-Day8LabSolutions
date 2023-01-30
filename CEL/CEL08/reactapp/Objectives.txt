@@ -1,20 +1,15 @@
-Practise Home Lab
+Class Exercise Lab
 
-Validating Props.
-Check the prop is provided or not. 
+Passing props as children.
+As higher order components, we can render the props also. 
+You can also check with more details on https://www.robinwieruch.de/react-render-props/ \
 
 Program:
-Create Movie.js file. Create a function component that has props name.
-Check the prop name is available or not. If available 
-Movie Name : {props.name}
-If prop not available show as
-Movie Details not found
+Let we create App Component that has incrementy and decrement operator, that converts US dollor to Euro and INR indian rupee values.
+const Euro = ({ amount }) => <p>Euro: {amount * 0.92}</p>;
 
-Render the Movie Component in App Component. 
-<Movie name="Spiderman"/>
-<Movie/>
-<Movie name="Manifest"/>
-<Movie/>
+This is what the props are rendered and the value is updated automaticaly. 
+Similarly you can convert for INR also.
 
 Lab Environment
 
