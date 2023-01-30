@@ -2,15 +2,15 @@ Class Exercise Lab
 
 React Component in Details
 
-How to set default props in React.
-
-defaultProps is a property on the componment class and can be used for undefine props. It cant be used for null props.
+A prop is one of the way that components communicate to each other. To transfer data from from one component to other, prop are most commonly used.
 
 Program:
-Let we create a CustomText class that returns label of text "Sample Label Text". Set the defaultProps property to the CustomText class color- red.
-Call the CustomText componment from App Component with color props and without props. It will show the defaultProps property implemented.
+Create a new file in src folder - Subject.js Create a functional component Subject with one title prop. This component retuns h1 tag has "Learning Subject " with title prop value.
 
-Let the App component have h1 tag "Check defaultProps" and render CustomText four times.
+From App component, render the Subject Component by passing two prop title values
+1. prop.title =React
+2. prop.title =Angular
+
 
 Lab Environment
 
