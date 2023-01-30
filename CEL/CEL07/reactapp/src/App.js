@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Arithmetic from './Arithmetic';
+import Welcome from './Welcome';
+
 
 class App extends Component {
   render() {
     return (
         <div>
-          <h1>Arithmetic Function</h1>
-          <Arithmetic operator='+'/>
-          <Arithmetic operator='-'/>
+        <Welcome name="IamNEO"/>
         </div>
     );
   }
