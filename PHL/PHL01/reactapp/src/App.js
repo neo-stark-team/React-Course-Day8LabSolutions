@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import Welcome from './Welcome';
-
+import Movie from './Movie';
 
 class App extends Component {
   render() {
     return (
         <div>
-        <Welcome name="IamNEO"/>
+        <Movie name="Spiderman"/>
+        <Movie/>
+        <Movie name="Manifest"/>
+        <Movie/>
         </div>
     );
   }
