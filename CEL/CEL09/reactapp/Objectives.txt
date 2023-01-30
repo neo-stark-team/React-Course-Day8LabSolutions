@@ -1,15 +1,14 @@
 Class Exercise Lab
 
-Passing props as children.
-As higher order components, we can render the props also. 
-You can also check with more details on https://www.robinwieruch.de/react-render-props/ \
+Using References 
 
 Program:
-Let we create App Component that has incrementy and decrement operator, that converts US dollor to Euro and INR indian rupee values.
-const Euro = ({ amount }) => <p>Euro: {amount * 0.92}</p>;
+App component that renders some user entered test in textbox, an input field.
+When the button clicked the text entered by the user will display in h3 tag.
 
-This is what the props are rendered and the value is updated automaticaly. 
-Similarly you can convert for INR also.
+The ref is created in the constructor and then attached to the input element with data-testid="refText" when it renders.
+this.textInput.current.value 
+access the value and rendered to the screen. 
 
 Lab Environment
 
